@@ -7,7 +7,6 @@ int Summa(int N)
     {
     int Sum = 0;
     string con = Convert.ToString(N);
-    // if (con.Length >= 0) 
     {
         for(int i = 0; i <= con.Length; i++)
             {
@@ -17,7 +16,6 @@ int Summa(int N)
     }
         return Sum;
     }
-
 int Number(string Num)
     {
         Console.WriteLine(Num);   
@@ -25,7 +23,3 @@ int Number(string Num)
     }
 int N = Number("введите число: ");
 Console.Write(Summa(N));
-
- 
-// int NN = Math.Abs(Convert.ToInt32(Console.ReadLine()));
-// Console.WriteLine(NN);  
